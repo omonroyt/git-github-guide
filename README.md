@@ -51,7 +51,7 @@ ssh -T git@github.com
 ```
 `Hi user! You've successfully authenticated, but Github...`
 ### 3️⃣ Crear una nueva llave SSH en GitHub.
-![NewSSHKEY](./images/newsshkey.png)
+![NewSSHKEY](./images/newsshkey.PNG)
 
 ### 4️⃣ Crear un nuevo repositorio
 ```bash
