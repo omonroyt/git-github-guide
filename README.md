@@ -40,7 +40,7 @@ ssh-keygen -t ed25519
 ```
 Ver contraseña generada:
 ```bash
-cd ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub
 ...
 ```
 Iniciar una conexión SSH hacia GitHub:
