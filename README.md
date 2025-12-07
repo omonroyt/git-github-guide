@@ -41,8 +41,13 @@ ssh-keygen -t ed25519
 Ver contraseña generada:
 ```bash
 cat ~/.ssh/id_ed25519.pub
+
+#Copiar tu llave para el siguiente paso:
 ...
 ```
+### 3️⃣ Crear una nueva llave SSH en GitHub.
+![NewSSHKEY](./images/newsshkey.PNG)
+
 Iniciar una conexión SSH hacia GitHub:
 ```bash
 ssh -T git@github.com
@@ -50,8 +55,6 @@ ssh -T git@github.com
 # escribir: yes
 ```
 `Hi user! You've successfully authenticated, but Github...`
-### 3️⃣ Crear una nueva llave SSH en GitHub.
-![NewSSHKEY](./images/newsshkey.PNG)
 
 ### 4️⃣ Crear un nuevo repositorio
 ```bash
